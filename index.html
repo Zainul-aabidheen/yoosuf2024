@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Majlis 2024 | Yoosuf Abdhulla</title>
+</head>
+<body class="light-gray-bg">
+    <div class="container">
+        <table id="votersTable" class="hidden">
+            <thead>
+                <tr>
+                    <th>National ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile no.</th>
+                    <th>Voted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A220306</td>
+                    <td>Ahmed Jabeen Abdulla</td>
+                    <td>Aabaadhee Ahmed</td>
+                    <td>9890989</td>
+                    <td class="vote-status" onclick="showConfirmation(cell)"></td>
+                </tr>
+                <tr>
+                    <td>A048740</td>
+                    <td>Abdulla Hameed Hussain</td>
+                    <td>Aabaaru</td>
+                    <td>7997343</td>
+                    <td class="vote-status" onclick="showConfirmation(this)"></td>
+                </tr>
+                    <td>A219988</td>
+                    <td>Saudhulla Hussain</td>
+                    <td>Aabaaru</td>
+                    <td>7857492</td>
+                    <td class="vote-status" onclick="showConfirmation(this)"></td>
+                </tr>
+                <tr>
+                    <td>A219989</td>
+                    <td>Mohmaed Saeed Hussain</td>
+                    <td>Aabaaru</td>
+                    <td>7689158</td>
+                    <td class="vote-status" onclick="showConfirmation(this)"></td>
+                </tr>
+                <tr>
+                    <td>A219991</td>
+                    <td>Mohamed Soaima</td>
+                    <td>Aabaaru</td>
+                    <td>-</td>
+                    <td class="vote-status" onclick="showConfirmation(this)"></td>
+                </tr>
+                <tr>
+                    <td>A223876</td>
+                    <td>Aishath Nisham Ahmed</td>
+                    <td>Aabaaru</td>
+                    <td>-</td>
+                    <td class="vote-status" onclick="showConfirmation(this)"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <script src="https://www.gstatic.com/firebasejs/10.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.2.4/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.2.4/firebase-database.js"></script>
+        <script src="password.js"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
